@@ -12,7 +12,7 @@ variable "instance_type" {
 
 # AMI ID for the Ubuntu server
 variable "ami" {
-  description = "AMI ID for the Ubuntu server"
+  description = "AMI ID for the Amazon Linux 2 server"
   default     = "ami-063d43db0594b521b"
 }
 
